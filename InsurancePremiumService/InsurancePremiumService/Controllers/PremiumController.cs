@@ -18,7 +18,7 @@ namespace InsurancePremiumService.Controllers
             _premiumProcessor = premiumProcessor;
         }
 
-        [HttpGet(Name = "GetPremium")]
+        [HttpPost(Name = "GetPremium")]
         public PremiumDetails Get(InsuredPersonDetails insuredPersonDetails)
         {
             var premiumDetails = _premiumProcessor.GetPremiumDetails(insuredPersonDetails);
