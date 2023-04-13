@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/InsurancePremiumService/.vs
+/InsurancePremiumService/DataAccessLayer/bin/Debug/net6.0
+/InsurancePremiumService/DataAccessLayer/obj
+/InsurancePremiumService/InsurancePremiumService/obj
+/InsurancePremiumService/BusinessLayer/obj/Debug/net6.0
+/InsurancePremiumService/BusinessLayer/obj
