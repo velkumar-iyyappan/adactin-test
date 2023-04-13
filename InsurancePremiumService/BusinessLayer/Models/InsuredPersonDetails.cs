@@ -9,11 +9,11 @@ namespace BusinessLayer.Models
     public class InsuredPersonDetails
     {
         public string Name { get; set; }
-        public string Age { get; set; }
+        public int Age { get; set; }
         public DateTime DateOfBirth { get; set; }
 
         public string OccupationType { get; set; }
 
-        public string SumInsured { get; set; }
+        public int SumInsured { get; set; }
     }
 }
